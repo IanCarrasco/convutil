@@ -12,6 +12,7 @@ def convolution(input_size=(256,256,512), num_filters=256, filter_size=3, stride
     
   out_tuple = (out_size, out_size, num_filters)
   print(f"[bold magenta]Input:{input_size}[/bold magenta] :right_arrow: [bold green]Output:{out_tuple}[/bold green]")
+  return
 
 if __name__ == '__main__':
   fire.Fire(convolution)
